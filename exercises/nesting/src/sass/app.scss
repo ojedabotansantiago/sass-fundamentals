@@ -1,5 +1,30 @@
 body {
-    h1 {
+  button {
+    padding-right: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom:2px;
+    border: 1px;
+    border-radius: 2px;
+  }
+  h1 {
     color: #c46;
+  }
+
+  .btn.btn-primary {
+    border-style: solid;
+    background-color: #c46;
+    color: #ffffff;
+  }
+  .btn.btn-primary:disabled {
+    opacity: 0.5;
+  }
+  .btn.btn-secondary {
+    background: #edbcc8;
+    background-color:rgb(237, 188, 200);    
+  }
+  .btn.btn-secondary:disabled {
+    opacity: 0.5;
   }
 }
